@@ -1,0 +1,9 @@
+{
+    "theme_color": "rgba (255, 97, 85, 1)",
+    "background_color": "rgba (54, 56, 77, 1)",
+    "scope": "/",
+    "start_url": "/",
+    "name": "Newsletter sign-up form with success message Solution",
+    "short_name": "Newsletter sign-up form with success message",
+    "description": "Newsletter sign-up form with success message solution for frontend mentor, Built Using React and TailwindCss with Responsive design"
+}
