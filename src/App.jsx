@@ -41,9 +41,9 @@ function App() {
         <>
           <div className="md:w-[48rem] lg:w-[58rem] bg-white rounded-[2.25rem] flex flex-col md:flex-row gap-3 justify-center items-center md:grid md:grid-cols-2 p-4 lg:p-6">
           <picture className="md:col-start-2 md:ml-10 lg:ml-12">
-            <source media="(min-width: 640px)" srcSet='/images/illustration-sign-up-desktop.svg' type="image/png"/>
-            <source media="(max-width: 639px)" srcSet='/images/illustration-sign-up-mobile.svg' type="image/png"/>
-            <img src='public/images/illustration-sign-up-mobile.svg' alt='illustration'/>
+            <source media="(min-width: 640px)" srcSet='./images/illustration-sign-up-desktop.svg' type="image/png"/>
+            <source media="(max-width: 639px)" srcSet='./images/illustration-sign-up-mobile.svg' type="image/png"/>
+            <img src='./images/illustration-sign-up-mobile.svg' alt='illustration'/>
           </picture>
           <div className="md:col-start-1 md:row-start-1 lg:ml-6 relative">
             <h1 className="text-[2.5rem] lg:text-[3.5rem] font-bold leading-10 lg:leading-[3.5rem] my-4 lg:my-8">Stay updated!</h1>
@@ -72,7 +72,7 @@ function App() {
         <>
         <div className="sm:w-[31.5rem] bg-white rounded-[2.25rem]">
         <div className="p-6 lg:px-16 lg:py-12 flex flex-col justify-start items-start">
-          <img src='/images/icon-success.svg' className="mb-4" alt="icon-success"/>
+          <img src='./images/icon-success.svg' className="mb-4" alt="icon-success"/>
           <h2 className="text-[2.5rem] lg:text-[3.5rem] font-bold leading-10 lg:leading-[3.5rem] my-6">Thanks for subscribing!</h2>
           <p className="text-base leading-6">A confirmation email has been sent to <span className="font-bold">{email}</span> Please open it and click the button inside to confirm your subscription</p>
           <Button className="mt-[10rem] md:mt-[4rem] mb-[5.7rem] md:mb-[2rem]" onClick={handleDismiss}>Dismiss message</Button>
