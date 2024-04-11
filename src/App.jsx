@@ -43,7 +43,7 @@ function App() {
           <picture className="md:col-start-2 md:ml-10 lg:ml-12">
             <source media="(min-width: 640px)" srcSet='/images/illustration-sign-up-desktop.svg' type="image/png"/>
             <source media="(max-width: 639px)" srcSet='/images/illustration-sign-up-mobile.svg' type="image/png"/>
-            <img src='/images/illustration-sign-up-mobile.svg' alt='illustration'/>
+            <img src='public/images/illustration-sign-up-mobile.svg' alt='illustration'/>
           </picture>
           <div className="md:col-start-1 md:row-start-1 lg:ml-6 relative">
             <h1 className="text-[2.5rem] lg:text-[3.5rem] font-bold leading-10 lg:leading-[3.5rem] my-4 lg:my-8">Stay updated!</h1>
